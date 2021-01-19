@@ -1,0 +1,113 @@
+.Menu
+{
+    background-image: url('Poze/Meniu/Food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:400px;
+    margin-top: 50px;
+    background-position: 50% 60%;
+}
+
+h1
+{
+    position: absolute;
+    left: 50%;
+    top:26%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family:  "Script MT", Brush Script Std, cursive;
+    color: rgb(255, 0, 0);
+}
+
+ol
+{
+    font-family:  "Script MT", Brush Script Std, cursive;
+    font-size:25px;
+    margin-left:280px;
+    color: rgb(255, 255, 255);
+}
+
+#pizza
+{
+    margin-left:200px;
+    font-size:30px;
+}
+
+#pui
+{
+    margin-left:200px;
+    font-size:30px;
+}
+
+#burger
+{
+    margin-left:200px;
+    font-size:30px;
+}
+
+ol img
+{
+    float:right;
+    margin-right: 300px;
+    width: 270px;
+    height: 100%;
+}
+
+.ImagineFundal
+{
+    background-image: url('Poze/Meniu/FoodCover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ImagineFundal2
+{
+    background-image: url('Poze/Meniu/FoodCover3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 35%;
+    height: 360px;
+}
+
+#Extra1
+{
+    background: url('Poze/Meniu/Desert.png') no-repeat left top;
+    font-family:  "Script MT", Brush Script Std, cursive;
+    margin-left:420px;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    padding-left: 60px;
+}
+
+#Extra2
+{
+    background: url('Poze/Meniu/Drink.png') no-repeat left top;
+    font-family:  "Script MT", Brush Script Std, cursive;
+    margin-left:420px;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    padding-left: 60px;
+}
+
+#Special1
+{
+    list-style-type: circle;
+}
+
+#Special2
+{
+    list-style-type: square;
+}
+
+h2
+{
+    text-align: center;
+    font-family:  "Script MT", Brush Script Std, cursive;
+    font-size: 35px;
+}
+
+td img
+{
+    width: 30px;
+}

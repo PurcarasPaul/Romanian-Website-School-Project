@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Galerie.css">
+    <link rel="stylesheet" type="text/css" href="Navigation_Bar.css">
+    <link rel="Icon" href="Poze/Bara navigatie/Icon.ico"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Galerie</title>
+</head>
+<body>
+    <div id="nav-placeholder">
+        <script>
+          $(function(){
+            $("#nav-placeholder").load("Navigation_Bar.html");
+          });
+          </script>
+    </div>
+
+    <div class="Gallery">
+        <h1><em>Galerie</em></h1>
+    </div>
+
+    <div>
+        <h2>Top 10 opere de arta din restaurantul nostru</h1>
+            <ol id="Art" start="10" reversed>
+                <li><cite>The Scream</cite><br>by Edvard Munch</li>
+                <img src="Poze/Galerie/The Scream.jpg">
+                <li><cite>The Mystic Hunt of the Unicorn</cite><br>by Martin Schongauer</li>
+                <img src="Poze/Galerie/Art2.jpg">
+                <li><cite> Ciego popular en Cádiz</cite><br>by Prilidiano Pueyrredón</li>
+                <img src="Poze/Galerie/Art3.jpg">
+                <li><cite>Gioconda</cite><br>by Leonardo da Vinci</li>
+                <img src="Poze/Galerie/Art4.jpg">
+                <li><cite>Tema Peisaj</cite><br>by Purcaras Paul-Vasile</li>
+                <a href="D:\Facultate\Anul 2\Semestrul 1\Dezvoltarea aplicatiilor WEB\Tema Peisaj\Tema_Peisaj_Adevarat.txt"><cite>Tema Peisaj</cite></a>
+            </ol>
+    </div>
+</body>
+</html>

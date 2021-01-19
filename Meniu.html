@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Meniu.css">
+    <link rel="stylesheet" type="text/css" href="Navigation_Bar.css">
+    <link rel="Icon" href="Poze/Bara navigatie/Icon.ico"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Meniu</title>
+
+    <style>
+        table 
+        {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th 
+        {
+          border: 1px solid #dddddd;
+          text-align: center;
+        }
+        
+        tr:nth-child(even) 
+        {
+          background-color: #ada5f5;
+          height:60px;    
+        }
+
+        tr:nth-child(odd) 
+        {
+          background-color: #ff7070;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav-placeholder">
+        <script>
+          $(function(){
+            $("#nav-placeholder").load("Navigation_Bar.html");
+          });
+          </script>
+    </div>
+    
+    <div class="Menu">
+        <h1>Meniu</h1>
+    </div>
+
+    <div class="ImagineFundal">
+        <ol>
+            <li id="pizza">Pizza</li>
+            <ol type="a">
+                <li>Pizza Capriciosa <img src="Poze/Meniu/Pizza1.jpg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>sos de roșii, mozzarella, șuncă, ciuperci, măsline, ardei</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>30 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>30 lei</dd>
+                </dl>
+                <li>Pizza Rustic <img src="Poze/Meniu/Pizza2.jpg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>sos de roșii, șuncă, mozzarella, salam, bacon, ciuperci, porumb dulce</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>40 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>25 lei</dd>
+                </dl>
+                <li>Pizza Bruschetta <img src="Poze/Meniu/Pizza3.jpg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>sos de roșii, salam crud uscat, roșii, condimente, busuioc, usturoi, parmezan, mozzarella</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>35 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>50 lei</dd>
+                </dl>
+            </ol>
+            <li id="pui">Pui</li>
+            <ol type="a">
+                <li>Pulpe de pui pe jar<img src="Poze/Meniu/Pui1.jpg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>1 pulpa 200g, cartofi 150g, salata varza 150g, chifla 60 g</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>25 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>17 lei</dd>
+                </dl>
+                <li>Pui pe jar big family 4 - 6 persoane <img src="Poze/Meniu/Pui2.jpeg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>2 pui pe jar 2kg, cartofi 600g, salata varza 250g, 6 chifle 160 g, 2 sosuri</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>60 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>100 lei</dd>
+                </dl>
+                <li>Frigarui piept de pui pe jar<img src="Poze/Meniu/Pui3.jpg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>Piept de pui 150g, cartofi 150g, salata varza 150g, chifla 60 g</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>15 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>16 lei</dd>
+                </dl>
+            </ol>
+            <li id="burger">Burger</li>
+            <ol type="a">
+                <li>Hamburger crispy de pui<img src="Poze/Meniu/Hamburger Pui.jpeg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>snitel crispy de pui, salată iceberg, roșii, ceapă, castraveți murați, dressing</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>25 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>33 lei</dd>
+                </dl>
+                <li>Cheeseburger crispy de pui<img src="Poze/Meniu/Cheeseburger Pui.jpeg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>snitel crispy de pui, brânză cheddar, salată iceberg, roșii, ceapă, castraveți murați, dressing</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>15 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>33 lei</dd>
+                </dl>
+                <li>Bacon Cheeseburger crispy de pui<img src="Poze/Meniu/Bacon Cheeseburger Pui.jpeg" ></li>
+                <dl>
+                    <dt>Ingrediente:</dt>
+                    <dd>snitel crispy de pui, bacon, brânza cheddar, salată iceberg, roșii, ceapă, castraveți murați, dressing</dd>
+                    <dt>Timp de preparare:</dt>
+                    <dd>15 minute</dd>
+                    <dt>Pret:</dt>
+                    <dd>36 lei</dd>
+                </dl>
+            </ol>
+        </ol>
+    </div>
+
+    <div class="ImagineFundal2">
+            <ul id="Extra1">
+                <li>Desert</li>
+                <ul id="Special1">
+                    <li>New York Cheesecake – Home Made&nbsp;&nbsp;15 lei</li>
+                    <li>Tort La Scoica&nbsp;&nbsp;25 lei</li>
+                    <li>Tiramisu Cu Inghetata&nbsp;&nbsp;35 lei</li>
+                </ul>
+            </ul>
+            <ul id="Extra2">
+                <li>Suc</li>
+                <ul id="Special2">
+                    <li>Loca&nbsp;&nbsp;5 lei</li>
+                    <li>Sepsi&nbsp;&nbsp;5 lei</li>
+                    <li>Panta&nbsp;&nbsp;5 lei</li>
+                </ul>
+            </ul>
+    </div>
+
+    <div>
+        <h2>Vin</h2>
+        <table>
+          <tr>
+            <th>Nume</th>
+            <th>Tip</th>
+            <th>Pret</th>
+            <th>Poza</th>
+          </tr>
+          <tr>
+            <td>Muller Thurgau 2016</td>
+            <td>Sec</td>
+            <td>400 lei</td>
+            <td><img src="Poze/Meniu/Vin1.jpg" alt="Vin"></td>
+          </tr>
+          <tr>
+            <td>Gewürztraminer DOC 2016</td>
+            <td>Sec</td>
+            <td>70 lei</td>
+            <td><img src="Poze/Meniu/Vin2.jpg" alt="Vin"></td>
+          </tr>
+          <tr>
+            <td>Rivetto Barolo Briccolina Docg 2013</td>
+            <td>Sec</td>
+            <td>1100 lei</td>
+            <td><img src="Poze/Meniu/Vin3.jpg" alt="Vin"></td>
+          </tr>
+          <tr>
+            <td>Basavin Grand House Pastoral</td>
+            <td>Dulce</td>
+            <td>30 lei</td>
+            <td><img src="Poze/Meniu/Vin4.jpg" alt="Vin"></td>
+          </tr>
+          <tr>
+            <td>Castel Mimi Merlot Reserve 2012</td>
+            <td>Sec</td>
+            <td>700 lei</td>
+            <td><img src="Poze/Meniu/Vin5.jpg" alt="Vin"></td>
+          </tr>
+        </table>
+    </div>
+
+    <img style="width: 1901px;" src="Poze/Meniu/FoodMap.jpg" alt="Food" usemap="#foodmap">
+
+    <map name="foodmap">
+        <area shape="rect" coords="0,0,950,950" alt="Pui" href="Meniu.html#pui">
+        <area shape="rect" coords="951,0,1901,950" alt="Bauturi" href="Meniu.html#Extra2">
+        <area shape="rect" coords="0,951,950,1901" alt="Burger" href="Meniu.html#burger">
+        <area shape="rect" coords="951,951,1901,1901" alt="Pizza" href="Meniu.html#pizza">
+      </map>
+</body>
+</html>

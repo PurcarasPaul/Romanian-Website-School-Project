@@ -1,0 +1,84 @@
+body
+{
+    margin: 0;
+    background: bisque;
+}
+
+.navbar
+{
+    padding-top: 10px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    left: 1220px;
+}
+
+.logo
+{
+    position: absolute;
+    left:-1220px;
+    top:0;
+    width: 180x;
+    height: 130px;
+}
+
+.logoText
+{
+    position: absolute;
+    left:-1100px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    line-height: 20px;
+    color:rgb(0, 212, 35);
+    text-shadow: 0 0 30px rgb(21, 216, 37);
+}
+
+.active
+{
+    border: 2px solid rgb(2, 47, 131);
+}
+
+ul
+{
+    list-style: none;
+}
+
+nav ul li
+{
+    float: right;
+    width: 160px;
+    height: 50px;
+    background: rgba(0,0,0,0.0004);
+    line-height: 50px;
+    text-align: center;
+    padding-top:20px;
+}
+
+ul li a
+{
+    background: bisque;
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: block;
+}
+
+ul li a:hover
+{
+    border: 2px solid rgb(2, 47, 131);
+}
+
+ul li ul li
+{
+    display: none;
+    position: relative;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 1;
+}
+
+ul li:hover ul li
+{
+    display: block;
+}

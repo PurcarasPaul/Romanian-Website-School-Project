@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+    <link rel="stylesheet" type="text/css" href="Navigation_Bar.css">
+    <link rel="Icon" href="Poze/Bara navigatie/Icon.ico"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <div id="nav-placeholder">
+        <script>
+          $(function(){
+            $("#nav-placeholder").load("Navigation_Bar.html");
+          });
+          </script>
+    </div>
+    
+    <div class="Contact">
+        <h1>Contact</h1>
+    </div>
+
+    <div class="container">
+        <form id="myForm" action="Homepage.html#OpiniiClienti">
+      
+          <label for="fname">Nume</label>
+          <input type="text" id="fname" name="firstname" placeholder="Nume..">
+      
+          <label for="lname">Prenume</label>
+          <input type="text" id="lname" name="lastname" placeholder="Prenume..">
+
+          <label for="Email">Email</label>
+          <input type="text" id="Email" name="Email" placeholder="Adresa email..">
+
+          <label for="Telefon">Telefon</label>
+          <input type="text" id="Telefon" name="Telefon" placeholder="Numar de telefon..">
+      
+          <label for="Țară">Țară</label>
+          <select id="Țară" name="Țară">
+            <option value="romania">Romania</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="germania">Germania</option>
+            <option value="pakistan">Pakistan</option>
+          </select>
+      
+          <label for="Comentariu">Comentariu</label>
+          <textarea id="Comentariu" name="Comentariu" placeholder="Scrie un comentariu.." style="height:100px"></textarea>
+
+          <p>Varsta:</p>
+          <input type="radio" id="age1" name="age" value="30">
+          <label for="age1">18 ani - 30 ani</label>
+          <input type="radio" id="age2" name="age" value="60">
+          <label for="age2">31 ani - 60 ani</label>
+          <input type="radio" id="age3" name="age" value="100">
+          <label for="age3">61 ani - 100 ani</label>
+          <input type="radio" id="age4" name="age" value="more">
+          <label for="age3">Peste 100 ani</label><br><br>
+
+          <label for="myfile">Alege un fisier:</label>
+          <input type="file" id="myfile" name="myfile">
+          <br><br>
+      
+          <input type="submit" value="Trimite">
+          <button type="button" onclick="myFunction()">Reset</button>
+        </form>
+
+        <form action="Homepage.html">
+          <br>
+          <input type="image" src="Poze/Bara navigatie/CluckinBell_Emblem.jpg" alt="Submit" width="48" height="48">
+        </form>
+      </div>
+      <script>
+        function myFunction() 
+        {
+            document.getElementById("myForm").reset();
+        }
+    </script>
+</body>
+</html>
